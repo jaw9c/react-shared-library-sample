@@ -102,10 +102,5 @@
       "jsx",
       "node"
     ]
-  },
-  "babel": {
-    "presets": [
-      "react-app"
-    ]
   }
 }
