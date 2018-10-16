@@ -277,7 +277,7 @@ module.exports = {
           // The preset includes JSX, Flow, and some ESnext features.
           {
             test: /\.(js|mjs|jsx)$/,
-            include: paths.appSrc,
+            include: [paths.appSrc, paths.shared],
 
             loader: require.resolve('babel-loader'),
             options: {
