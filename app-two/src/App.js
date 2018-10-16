@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+import SharedComponent from 'shared/src/SharedComponent'
+
 class App extends Component {
   render() {
     return (
@@ -11,6 +13,7 @@ class App extends Component {
           <p>
             Hey I'm App two
           </p>
+          <SharedComponent />
           <a
             className="App-link"
             href="https://reactjs.org"
